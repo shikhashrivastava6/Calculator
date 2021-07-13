@@ -1,6 +1,0 @@
-#Calculator
-
-
-
-
-Simple compute
