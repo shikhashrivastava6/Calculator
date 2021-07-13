@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>calculator...</title>
+        <script src="calculator.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main_div">
+            <p class="heading"><b>CALCULATOR</b></p>
+              <form name="forms">
+                  <input type="text" name="textin" id="textbox" value="0"><br>
+                  <table align="center" cellspacing="10px">
+                      <tr>
+                  <td><input type="reset" value="&copy;" onclick="forms.textin.value = ' ' " class="btn"></td>
+                  <td><input type="button" value="&divide;" onclick="forms.textin.value +='/'" class="btn"></td>
+                  <td><input type="button" value="&times;" onclick="forms.textin.value +='*'" class="btn"></td>
+                  <td><input type="button" value="&#9746" onclick="back()" class="btn"></td>
+                      </tr>
+                  <tr>
+                  <td><input type="button" value="7" onclick="forms.textin.value +='7'" class="btn"></td>
+                  <td><input type="button" value="8" onclick="forms.textin.value +='8'" class="btn"></td>
+                  <td><input type="button" value="9" onclick="forms.textin.value +='9'" class="btn"></td>
+                  <td><input type="button" value="-" onclick="forms.textin.value +='-'" class="btn"></td>
+                  </tr>
+                  <tr>
+                  <td><input type="button" value="4" onclick="forms.textin.value +='4'" class="btn"></td>
+                  <td><input type="button" value="5" onclick="forms.textin.value +='5'" class="btn"></td>
+                  <td><input type="button" value="6" onclick="forms.textin.value +='6'" class="btn"></td>
+                  <td><input type="button" value="+" onclick="forms.textin.value +='+'" class="btn"></td>
+                  </tr>
+                  <tr>
+                  <td><input type="button" value="1" onclick="forms.textin.value +='1'" class="btn"></td>
+                  <td><input type="button" value="2" onclick="forms.textin.value +='2'" class="btn"></td>
+                  <td><input type="button" value="3" onclick="forms.textin.value +='3'" class="btn"></td>
+                  <td rowspan="2"><input type="button" value="=" onclick="forms.textin.value = eval(forms.textin.value) " id="btnequal"></td>
+                  </tr>
+                  <tr>
+                  <td><input type="button" value="%" onclick="forms.textin.value +='%'" class="btn"></td>
+                  <td><input type="button" value="0" onclick="forms.textin.value +='0'" class="btn"></td>
+                  <td><input type="button" value="&#8729" onclick="forms.textin.value +='.'" class="btn"></td>
+                </tr>
+                </table>       
+                </form>
+        </div>
+    </body>
+</html>

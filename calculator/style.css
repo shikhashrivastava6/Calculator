@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(186, 187, 189);
+    text-align: center;
+    padding-top: 20px;
+    display:flexbox;
+}
+.main_div{
+    margin-left:400px ;
+    margin-right: 400px;
+    border: 40px;
+    height: 400px;
+    width: 400px;
+    border-color: rgba(41, 41, 41, 0.897);
+    border-style: groove;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 49);
+    margin-top: 1%;
+}
+.heading{
+    color: rgb(172, 169, 169);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-stretch: 10px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    background-color: rgb(43, 43, 43);
+}
+#textbox{
+    width: 400px;
+    height: 80px;
+    border: 10px;
+    border-style: groove;
+    background-color: rgb(132, 133, 134);
+    border-radius: 10px;
+    border-color: rgb(49, 49, 49);
+    color: black;
+    font-size: 30px;
+    text-align: right;
+}
+td{
+   background-color: rgb(54, 54, 54);
+}
+.btn{
+   background-color: rgb(43, 42, 42);
+   color: silver;
+   width: 80px;
+   height: 45px;
+   border: 10px;
+   border-color: rgb(51, 50, 50);
+   border-style: groove;
+   border-radius: 10px;
+   font-size: 18px;
+}
+#btnequal{
+    background-color: rgb(43, 42, 42);
+    color: silver;
+    border: 10px;
+    border-color: rgb(51, 50, 50);
+    border-style: groove;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 80px;
+    height: 100px;
+}
